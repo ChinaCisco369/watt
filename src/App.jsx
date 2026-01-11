@@ -103,11 +103,9 @@ const WATTApp = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-3">
-              <img
-                src="/logo/watt-logo1.png"
-                alt="WATT Logo"
-                className="w-12 h-12 object-contain"
-              />
+              <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-lg flex items-center justify-center">
+                <Zap className="w-8 h-8 text-white" />
+              </div>
               <div>
                 <div className="text-2xl font-bold tracking-tight">WATT</div>
                 <div className="text-xs text-gray-400 tracking-wide">TBAF HOLDINGS</div>
@@ -168,18 +166,13 @@ const WATTApp = () => {
         
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="flex flex-col items-center mb-4">
-              <img
-                src="/logo/watt-logo2.png"
-                alt="WATT Logo"
-                className="w-120 h-120 lg:w-96 lg:h-96 object-contain -mb-4"
-              />
-            </div>
+            <h1 className="text-7xl lg:text-9xl font-bold mb-6 tracking-tighter">
+              WATT
+            </h1>
             <p className="text-xl lg:text-2xl text-gray-400 tracking-wide font-light">
               Engineering Science Through Technology
             </p>
           </div>
-        </div>
 
           <div className="max-w-4xl mx-auto text-center mb-16">
             <p className="text-lg lg:text-xl text-gray-300 leading-relaxed mb-8">
@@ -205,6 +198,7 @@ const WATTApp = () => {
               </div>
             ))}
           </div>
+        </div>
       </section>
 
       {/* Divisions Section */}
@@ -338,24 +332,17 @@ const WATTApp = () => {
           <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
             Join world-class engineers building the future of industrial technology and energy infrastructure.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            <div className="bg-gray-900 border border-gray-800 rounded-xl p-8">
-              <h3 className="text-xl font-bold mb-3">Mechanical Engineering</h3>
-              <p className="text-gray-400 mb-4">Machine Designs, Thermal Systems, and Structural Systems</p>
-              <button className="text-orange-500 hover:text-orange-400 font-semibold flex items-center mx-auto">
-                View Roles <ChevronRight className="w-4 h-4 ml-1" />
-              </button>
-            </div>
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="bg-gray-900 border border-gray-800 rounded-xl p-8">
               <h3 className="text-xl font-bold mb-3">Electrical Engineering</h3>
-              <p className="text-gray-400 mb-4">Power Generation, Grid Infrastructure, and Energy Analytics</p>
+              <p className="text-gray-400 mb-4">Power systems, grid infrastructure, and energy analytics</p>
               <button className="text-orange-500 hover:text-orange-400 font-semibold flex items-center mx-auto">
                 View Roles <ChevronRight className="w-4 h-4 ml-1" />
               </button>
             </div>
             <div className="bg-gray-900 border border-gray-800 rounded-xl p-8">
-              <h3 className="text-xl font-bold mb-3">Control Engineering</h3>
-              <p className="text-gray-400 mb-4">Industrial automation & Robotics, Controls, and AI Integration</p>
+              <h3 className="text-xl font-bold mb-3">Systems Engineering</h3>
+              <p className="text-gray-400 mb-4">Industrial automation, controls, and AI integration</p>
               <button className="text-orange-500 hover:text-orange-400 font-semibold flex items-center mx-auto">
                 View Roles <ChevronRight className="w-4 h-4 ml-1" />
               </button>
@@ -417,11 +404,9 @@ const WATTApp = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <img
-                  src="/logo/watt-logo1.png"
-                  alt="WATT Logo"
-                  className="w-12 h-12 object-contain"
-                />
+                <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-lg flex items-center justify-center">
+                  <Zap className="w-6 h-6 text-white" />
+                </div>
                 <div className="text-xl font-bold">WATT</div>
               </div>
               <p className="text-sm text-gray-500">Engineering Science Through Technology</p>
