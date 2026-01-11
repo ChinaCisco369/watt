@@ -344,15 +344,22 @@ const WATTApp = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="bg-gray-900 border border-gray-800 rounded-xl p-8">
-              <h3 className="text-xl font-bold mb-3">Electrical Engineering</h3>
-              <p className="text-gray-400 mb-4">Power systems, grid infrastructure, and energy analytics</p>
+              <h3 className="text-xl font-bold mb-3">Mechanical Engineering</h3>
+              <p className="text-gray-400 mb-4">Machine Designs, Thermal Systems, and Structural Systems</p>
               <button className="text-orange-500 hover:text-orange-400 font-semibold flex items-center mx-auto">
                 View Roles <ChevronRight className="w-4 h-4 ml-1" />
               </button>
             </div>
             <div className="bg-gray-900 border border-gray-800 rounded-xl p-8">
-              <h3 className="text-xl font-bold mb-3">Systems Engineering</h3>
-              <p className="text-gray-400 mb-4">Industrial automation, controls, and AI integration</p>
+              <h3 className="text-xl font-bold mb-3">Electrical Engineering</h3>
+              <p className="text-gray-400 mb-4">Power Generation, Grid Infrastructure, and Energy Analytics</p>
+              <button className="text-orange-500 hover:text-orange-400 font-semibold flex items-center mx-auto">
+                View Roles <ChevronRight className="w-4 h-4 ml-1" />
+              </button>
+            </div>
+            <div className="bg-gray-900 border border-gray-800 rounded-xl p-8">
+              <h3 className="text-xl font-bold mb-3">Control Engineering</h3>
+              <p className="text-gray-400 mb-4">Industrial automation & Robotics, Controls, and AI Integration</p>
               <button className="text-orange-500 hover:text-orange-400 font-semibold flex items-center mx-auto">
                 View Roles <ChevronRight className="w-4 h-4 ml-1" />
               </button>
