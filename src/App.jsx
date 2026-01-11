@@ -171,7 +171,7 @@ const WATTApp = () => {
             <img
               src="/logo/watt-logo2.png"
               alt="WATT Logo"
-              className="mx-auto mb-0 w-30 h-30 object-contain"
+              className="mx-auto w-64 h-64 object-contain -mb-8"
             />
             <p className="text-xl lg:text-2xl text-gray-400 tracking-wide font-light">
               Engineering Science Through Technology
