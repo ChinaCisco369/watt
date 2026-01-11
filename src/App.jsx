@@ -208,7 +208,6 @@ const WATTApp = () => {
               </div>
             ))}
           </div>
-        </div>
       </section>
 
       {/* Divisions Section */}
