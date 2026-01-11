@@ -103,9 +103,11 @@ const WATTApp = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-lg flex items-center justify-center">
-                <Zap className="w-8 h-8 text-white" />
-              </div>
+              <img
+                src="/logo/watt-logo1.png"
+                alt="WATT Logo"
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <div className="text-2xl font-bold tracking-tight">WATT</div>
                 <div className="text-xs text-gray-400 tracking-wide">TBAF HOLDINGS</div>
