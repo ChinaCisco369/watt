@@ -406,9 +406,11 @@ const WATTApp = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-lg flex items-center justify-center">
-                  <Zap className="w-6 h-6 text-white" />
-                </div>
+                <img
+                  src="/logo/watt-logo1.png"
+                  alt="WATT Logo"
+                  className="w-12 h-12 object-contain"
+                />
                 <div className="text-xl font-bold">WATT</div>
               </div>
               <p className="text-sm text-gray-500">Engineering Science Through Technology</p>
