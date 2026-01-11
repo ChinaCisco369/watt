@@ -342,7 +342,7 @@ const WATTApp = () => {
           <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
             Join world-class engineers building the future of industrial technology and energy infrastructure.
           </p>
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             <div className="bg-gray-900 border border-gray-800 rounded-xl p-8">
               <h3 className="text-xl font-bold mb-3">Mechanical Engineering</h3>
               <p className="text-gray-400 mb-4">Machine Designs, Thermal Systems, and Structural Systems</p>
