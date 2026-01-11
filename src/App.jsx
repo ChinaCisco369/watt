@@ -168,12 +168,11 @@ const WATTApp = () => {
         
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-7xl lg:text-9xl font-bold mb-6 tracking-tighter">
-              WATT
-            </h1>
-            <p className="text-xl lg:text-2xl text-gray-400 tracking-wide font-light">
-              Engineering Science Through Technology
-            </p>
+            <img
+              src="/logo/watt-logo.png"
+              alt="WATT Logo"
+              className="mx-auto mb-6 w-24 h-24 object-contain"
+            />
           </div>
 
           <div className="max-w-4xl mx-auto text-center mb-16">
