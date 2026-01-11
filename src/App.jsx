@@ -104,9 +104,9 @@ const WATTApp = () => {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-3">
               <img
-                src="/logo/watt-logo.png"
+                src="/logo/watt-logo1.png"
                 alt="WATT Logo"
-                className="w-12 h-12 object-contain"
+                className="w-15 h-15 object-contain"
               />
               <div>
                 <div className="text-2xl font-bold tracking-tight">WATT</div>
@@ -169,10 +169,13 @@ const WATTApp = () => {
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <img
-              src="/logo/watt-logo.png"
+              src="/logo/watt-logo2.png"
               alt="WATT Logo"
-              className="mx-auto mb-6 w-24 h-24 object-contain"
+              className="mx-auto mb-9 w-30 h-30 object-contain"
             />
+            <p className="text-xl lg:text-2xl text-gray-400 tracking-wide font-light">
+              Engineering Science Through Technology
+            </p>
           </div>
 
           <div className="max-w-4xl mx-auto text-center mb-16">
@@ -406,9 +409,9 @@ const WATTApp = () => {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <img
-                  src="/logo/watt-logo.png"
+                  src="/logo/watt-logo1.png"
                   alt="WATT Logo"
-                  className="w-10 h-10 object-contain"
+                  className="w-12 h-12 object-contain"
                 />
                 <div className="text-xl font-bold">WATT</div>
               </div>
