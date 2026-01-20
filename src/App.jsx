@@ -171,7 +171,7 @@ const WATTApp = () => {
             <img
               src="/logo/watt-logo2.png"
               alt="WATT Logo"
-              className="mx-auto w-72 h-72 object-contain -mb-16"
+              className="mx-auto w-80 h-80 object-contain -mb-16"
             />
           </div>
 
